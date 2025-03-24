@@ -62,7 +62,7 @@ const About = () => {
           <div className="relative h-[400px] md:h-[500px] opacity-0 animate-fade-in-up animate-delay-200">
             <div className="absolute top-0 right-0 w-full h-full rounded-2xl overflow-hidden">
               <img 
-                src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" 
+                src="public/images/image.png" 
                 alt="Profissional realizando tratamento" 
                 className="w-full h-full object-cover"
               />

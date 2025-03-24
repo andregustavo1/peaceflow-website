@@ -15,7 +15,7 @@ const Projects = () => {
       description: "Paciente apresentou melhora na postura e alívio de dores crônicas após tratamento combinado."
     },
     {
-      image: "https://images.unsplash.com/photo-1573811018435-b5f8712657ff?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+      image: "https://img.freepik.com/free-photo/side-view-woman-meditating-nature_23-2148940305.jpg?t=st=1742842062~exp=1742845662~hmac=f644b56fbf018d5f1fbdd172b62be095f3c37ad71495d38f464e571035740070&w=1060",
       title: "Redução de Estresse e Ansiedade",
       description: "Técnicas integradas proporcionaram redução de sintomas de estresse e melhora na qualidade de vida."
     }

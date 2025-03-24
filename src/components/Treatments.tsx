@@ -11,22 +11,22 @@ const Treatments = () => {
     {
       name: "Fisioterapia",
       description: "Tratamentos para reabilitação e alívio de dores musculares e articulares.",
-      image: "https://images.unsplash.com/photo-1576091160550-2173dba999ef?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80"
+      image: "/images/image1.png"
     },
     {
       name: "Osteopatia",
       description: "Terapia manual para melhorar a função corporal.",
-      image: "https://images.unsplash.com/photo-1573811018435-b5f8712657ff?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80"
+      image: "https://img.freepik.com/free-photo/physiotherapist-helping-patient-her-clinic_23-2149115653.jpg?t=st=1742841970~exp=1742845570~hmac=6f1649f57a9ba0cfcaa46fab579811ebd2f5d9f6e13111e95bb04a4270afcda7&w=996"
     },
     {
       name: "Pilates",
       description: "Exercícios para fortalecimento e flexibilidade.",
-      image: "https://images.unsplash.com/photo-1518611012118-696072aa579a?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80"
+      image: "/images/image2.png"
     },
     {
       name: "Posturologia",
       description: "Correção de postura e prevenção de dores.",
-      image: "https://images.unsplash.com/photo-1616279969856-759f559ada6f?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80"
+      image: "https://img.freepik.com/free-photo/young-woman-with-back-problems-doing-physiotherapy-treatment_23-2149115620.jpg?t=st=1742842009~exp=1742845609~hmac=fe86d0a2327a17486de8920ba4a546020126d67a433855716a386ef6da24bda0&w=996"
     },
     {
       name: "Treinamento Funcional",
