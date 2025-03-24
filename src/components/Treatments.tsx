@@ -38,7 +38,7 @@ const Treatments = () => {
   return (
     <section id="treatments" className="section bg-neutral-50">
       <div className="container-content">
-        <div className="text-center max-w-2xl mx-auto mb-16 opacity-0 animate-fade-in">
+        <div className="text-center max-w-2xl mx-auto mb-16 animation-trigger opacity-0">
           <h2 className="font-heading font-semibold mb-4">Tratamentos Especializados</h2>
           <p className="text-neutral-700">
             Conheça os tratamentos oferecidos pelo Perucci Lopes para melhorar sua saúde física e mental
@@ -49,8 +49,8 @@ const Treatments = () => {
           {treatments.map((treatment, index) => (
             <div 
               key={index} 
-              className="card group overflow-hidden opacity-0 animate-fade-in-up"
-              style={{ animationDelay: `${(index % 3) * 100}ms` }}
+              className="card group overflow-hidden animation-trigger opacity-0"
+              style={{ transitionDelay: `${(index % 3) * 100}ms` }}
             >
               <div className="h-56 overflow-hidden">
                 <img 

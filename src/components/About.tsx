@@ -6,7 +6,7 @@ const About = () => {
     <section id="about" className="section bg-neutral-50 overflow-hidden">
       <div className="container-content">
         <div className="grid md:grid-cols-2 gap-16 items-center">
-          <div className="space-y-6 opacity-0 animate-fade-in-up animate-delay-100">
+          <div className="space-y-6 animation-trigger opacity-0">
             <h2 className="font-heading font-semibold text-neutral-900 relative pb-4 inline-block">
               Sobre o Perucci Lopes
               <span className="absolute bottom-0 left-0 w-1/2 h-1 bg-primary"></span>
@@ -17,7 +17,7 @@ const About = () => {
             </p>
             
             <div className="grid sm:grid-cols-2 gap-6 mt-8">
-              <div className="flex items-start space-x-4">
+              <div className="flex items-start space-x-4 animate-child opacity-0">
                 <div className="bg-primary/10 p-3 rounded-lg">
                   <Users className="w-6 h-6 text-primary" />
                 </div>
@@ -27,7 +27,7 @@ const About = () => {
                 </div>
               </div>
               
-              <div className="flex items-start space-x-4">
+              <div className="flex items-start space-x-4 animate-child opacity-0">
                 <div className="bg-primary/10 p-3 rounded-lg">
                   <Heart className="w-6 h-6 text-primary" />
                 </div>
@@ -37,7 +37,7 @@ const About = () => {
                 </div>
               </div>
               
-              <div className="flex items-start space-x-4">
+              <div className="flex items-start space-x-4 animate-child opacity-0">
                 <div className="bg-primary/10 p-3 rounded-lg">
                   <Star className="w-6 h-6 text-primary" />
                 </div>
@@ -47,7 +47,7 @@ const About = () => {
                 </div>
               </div>
               
-              <div className="flex items-start space-x-4">
+              <div className="flex items-start space-x-4 animate-child opacity-0">
                 <div className="bg-primary/10 p-3 rounded-lg">
                   <Clock className="w-6 h-6 text-primary" />
                 </div>
@@ -59,7 +59,7 @@ const About = () => {
             </div>
           </div>
           
-          <div className="relative h-[400px] md:h-[500px] opacity-0 animate-fade-in-up animate-delay-200">
+          <div className="relative h-[400px] md:h-[500px] animation-trigger opacity-0">
             <div className="absolute top-0 right-0 w-full h-full rounded-2xl overflow-hidden">
               <img 
                 src="public/images/image.png" 
@@ -76,7 +76,7 @@ const About = () => {
               />
             </div>
             
-            <div className="absolute top-10 left-0 md:-left-10 glass-card p-4 z-10">
+            <div className="absolute top-10 left-0 md:-left-10 glass-card p-4 z-10 md:block">
               <p className="text-lg font-medium">+1000</p>
               <p className="text-sm text-neutral-600">Pacientes atendidos</p>
             </div>

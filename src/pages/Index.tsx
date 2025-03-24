@@ -23,17 +23,30 @@ const Index = () => {
     const observer = new IntersectionObserver((entries) => {
       entries.forEach((entry) => {
         if (entry.isIntersecting) {
+          // When element comes into view, add animation classes
           entry.target.classList.add('animate-fade-in');
+          entry.target.classList.add('animate-visible');
+          
+          // Optional: For staggered animations on child elements
+          const animatedChildren = entry.target.querySelectorAll('.animate-child');
+          animatedChildren.forEach((child, index) => {
+            setTimeout(() => {
+              child.classList.add('animate-visible');
+            }, index * 150); // Staggered delay
+          });
+          
+          // Once animated, no need to observe anymore
           observer.unobserve(entry.target);
         }
       });
     }, observerOptions);
 
-    // Target all elements with opacity-0
-    document.querySelectorAll('.opacity-0').forEach((el) => {
+    // Target all elements with animation-trigger class
+    document.querySelectorAll('.animation-trigger').forEach((el) => {
       observer.observe(el);
     });
 
+    // Clean up
     return () => {
       if (observer) {
         observer.disconnect();
