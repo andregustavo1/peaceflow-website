@@ -8,12 +8,12 @@ const About = () => {
         <div className="grid md:grid-cols-2 gap-16 items-center">
           <div className="space-y-6 opacity-0 animate-fade-in-up animate-delay-100">
             <h2 className="font-heading font-semibold text-neutral-900 relative pb-4 inline-block">
-              Sobre o Instituto Perucci Lopes
+              Sobre o Perucci Lopes
               <span className="absolute bottom-0 left-0 w-1/2 h-1 bg-primary"></span>
             </h2>
             
             <p className="text-neutral-700">
-              O Instituto Perucci Lopes é especializado em tratamentos físicos e mentais, oferecendo uma ampla gama de técnicas e procedimentos para promover o bem-estar. Nossa missão é aliviar o sofrimento físico e mental dos nossos pacientes, proporcionando resultados duradouros com um atendimento personalizado e acolhedor.
+              O Perucci Lopes é especializado em tratamentos físicos e mentais, oferecendo uma ampla gama de técnicas e procedimentos para promover o bem-estar. Nossa missão é aliviar o sofrimento físico e mental dos nossos pacientes, proporcionando resultados duradouros com um atendimento personalizado e acolhedor.
             </p>
             
             <div className="grid sm:grid-cols-2 gap-6 mt-8">
@@ -76,7 +76,7 @@ const About = () => {
               />
             </div>
             
-            <div className="absolute top-10 -left-10 glass-card p-4 z-10">
+            <div className="absolute top-10 left-0 md:-left-10 glass-card p-4 z-10">
               <p className="text-lg font-medium">+1000</p>
               <p className="text-sm text-neutral-600">Pacientes atendidos</p>
             </div>

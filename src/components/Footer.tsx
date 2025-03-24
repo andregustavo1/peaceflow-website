@@ -3,11 +3,11 @@ import { ArrowRight } from 'lucide-react';
 
 const Footer = () => {
   return (
-    <footer className="bg-neutral-900 text-white pt-16 pb-8">
+    <footer className="bg-[#111] text-white pt-16 pb-8">
       <div className="container-content">
         <div className="grid md:grid-cols-3 gap-8 pb-8 border-b border-neutral-800">
           <div>
-            <h3 className="text-xl font-heading font-medium mb-4">Instituto Perucci Lopes</h3>
+            <h3 className="text-xl font-heading font-medium mb-4">Perucci Lopes</h3>
             <p className="text-neutral-400 mb-6">
               Especialistas em tratamentos para o bem-estar físico e mental.
             </p>
@@ -68,7 +68,7 @@ const Footer = () => {
         </div>
         
         <div className="pt-8 text-center text-neutral-500">
-          <p>&copy; {new Date().getFullYear()} Instituto Perucci Lopes. Todos os direitos reservados.</p>
+          <p>&copy; {new Date().getFullYear()} Perucci Lopes. Todos os direitos reservados.</p>
         </div>
       </div>
     </footer>

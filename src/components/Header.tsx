@@ -26,7 +26,7 @@ const Header = () => {
         <div className="flex items-center justify-between">
           <div className="flex items-center">
             <a href="#" className="text-neutral-900 font-heading font-semibold text-xl">
-              Instituto Perucci Lopes
+              Perucci Lopes
             </a>
           </div>
           

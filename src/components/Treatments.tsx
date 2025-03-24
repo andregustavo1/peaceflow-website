@@ -4,11 +4,6 @@ import { ArrowRight } from 'lucide-react';
 const Treatments = () => {
   const treatments = [
     {
-      name: "Acupuntura",
-      description: "Técnica tradicional chinesa para alívio da dor e estresse.",
-      image: "https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80"
-    },
-    {
       name: "Drenagem Linfática",
       description: "Melhora a circulação e reduz o inchaço.",
       image: "https://images.unsplash.com/photo-1519823551278-64ac92734fb1?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80"
@@ -46,7 +41,7 @@ const Treatments = () => {
         <div className="text-center max-w-2xl mx-auto mb-16 opacity-0 animate-fade-in">
           <h2 className="font-heading font-semibold mb-4">Tratamentos Especializados</h2>
           <p className="text-neutral-700">
-            Conheça os tratamentos oferecidos pelo Instituto Perucci Lopes para melhorar sua saúde física e mental
+            Conheça os tratamentos oferecidos pelo Perucci Lopes para melhorar sua saúde física e mental
           </p>
         </div>
         

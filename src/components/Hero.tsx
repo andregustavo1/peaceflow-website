@@ -1,6 +1,4 @@
 
-import { ArrowDown } from 'lucide-react';
-
 const Hero = () => {
   return (
     <section 
@@ -31,13 +29,6 @@ const Hero = () => {
             </a>
           </div>
         </div>
-      </div>
-      
-      <div className="absolute bottom-10 left-1/2 transform -translate-x-1/2 opacity-0 animate-fade-in animate-delay-500">
-        <a href="#about" className="flex flex-col items-center text-neutral-500 hover:text-primary transition-colors">
-          <span className="text-sm mb-2">Saiba mais</span>
-          <ArrowDown size={20} className="animate-bounce" />
-        </a>
       </div>
       
       <div className="absolute inset-0 bg-gradient-to-b from-white/0 to-white/40 pointer-events-none"></div>
