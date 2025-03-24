@@ -35,8 +35,8 @@ export default {
         foreground: 'hsl(var(--foreground))',
         primary: {
           light: '#E6F2FF', // Very light blue
-          DEFAULT: '#79B4F9', // Soft blue
-          dark: '#0076FF', // Deeper blue
+          DEFAULT: '#0076FF', // Soft blue
+          dark: '#00008b', // Deeper blue
           foreground: 'hsl(var(--primary-foreground))'
         },
         secondary: {
