@@ -1,4 +1,3 @@
-
 import { useEffect } from 'react';
 import Header from '../components/Header';
 import Hero from '../components/Hero';
@@ -24,7 +23,6 @@ const Index = () => {
       entries.forEach((entry) => {
         if (entry.isIntersecting) {
           // When element comes into view, add animation classes
-          entry.target.classList.add('animate-fade-in');
           entry.target.classList.add('animate-visible');
           
           // Optional: For staggered animations on child elements
@@ -35,8 +33,9 @@ const Index = () => {
             }, index * 150); // Staggered delay
           });
           
-          // Once animated, no need to observe anymore
-          observer.unobserve(entry.target);
+          // Keep observing to handle elements going in and out of view
+          // Uncomment the line below if you want to stop observing once animated
+          // observer.unobserve(entry.target);
         }
       });
     }, observerOptions);

@@ -10,7 +10,7 @@ const CTA = () => {
       }}
     >
       <div className="container-content relative z-10">
-        <div className="max-w-3xl mx-auto text-center opacity-0 animate-fade-in">
+        <div className="max-w-3xl mx-auto text-center animation-trigger">
           <h2 className="font-heading font-semibold mb-4">
             Pronto para Melhorar Sua Qualidade de Vida?
           </h2>

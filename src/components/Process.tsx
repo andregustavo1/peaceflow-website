@@ -31,10 +31,10 @@ const Process = () => {
   return (
     <section id="process" className="section bg-neutral-50 overflow-hidden">
       <div className="container-content">
-        <div className="text-center max-w-2xl mx-auto mb-16 opacity-0 animate-fade-in">
+        <div className="text-center max-w-2xl mx-auto mb-16 animation-trigger">
           <h2 className="font-heading font-semibold mb-4">Nosso Processo</h2>
           <p className="text-neutral-700">
-            Conheça como funciona o atendimento no Instituto Perucci Lopes
+            Conheça como funciona o atendimento no Perucci Lopes
           </p>
         </div>
         
@@ -48,8 +48,8 @@ const Process = () => {
                 key={index}
                 className={`flex flex-col md:flex-row ${
                   index % 2 === 0 ? 'md:flex-row' : 'md:flex-row-reverse'
-                } items-center md:gap-8 opacity-0 animate-fade-in-up`}
-                style={{ animationDelay: `${index * 100}ms` }}
+                } items-center md:gap-8 animation-trigger`}
+                style={{ transitionDelay: `${index * 100}ms` }}
               >
                 <div className={`md:w-1/2 ${index % 2 === 0 ? 'md:text-right' : 'md:text-left'}`}>
                   <div className="bg-white p-6 rounded-2xl shadow-card">

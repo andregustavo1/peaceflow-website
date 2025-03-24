@@ -6,7 +6,7 @@ const WhyChooseUs = () => {
     {
       icon: <Award className="w-8 h-8 text-primary" />,
       title: "Especialização em Diversas Técnicas",
-      description: "Oferecemos acupuntura, fisioterapia, Pilates, entre outros tratamentos especializados."
+      description: "Oferecemos fisioterapia, Pilates, entre outros tratamentos especializados."
     },
     {
       icon: <User className="w-8 h-8 text-primary" />,
@@ -28,7 +28,7 @@ const WhyChooseUs = () => {
   return (
     <section className="section bg-white">
       <div className="container-content">
-        <div className="text-center max-w-3xl mx-auto mb-16 opacity-0 animate-fade-in">
+        <div className="text-center max-w-3xl mx-auto mb-16 animation-trigger">
           <h2 className="font-heading font-semibold mb-4">Por Que Nos Escolher?</h2>
           <p className="text-neutral-700 text-lg">
             Tratamentos Personalizados para Seu Bem-Estar Físico e Mental
@@ -39,8 +39,8 @@ const WhyChooseUs = () => {
           {cards.map((card, index) => (
             <div 
               key={index}
-              className="glass-card p-6 hover:translate-y-[-5px] transition-all duration-300 opacity-0 animate-fade-in-up"
-              style={{ animationDelay: `${(index + 1) * 100}ms` }}
+              className="glass-card p-6 hover:translate-y-[-5px] transition-all duration-300 animation-trigger"
+              style={{ transitionDelay: `${(index + 1) * 100}ms` }}
             >
               <div className="mb-4">{card.icon}</div>
               <h3 className="text-xl font-medium mb-3">{card.title}</h3>

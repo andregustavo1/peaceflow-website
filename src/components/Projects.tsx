@@ -34,14 +34,14 @@ const Projects = () => {
   return (
     <section id="projects" className="section bg-white">
       <div className="container-content">
-        <div className="text-center max-w-2xl mx-auto mb-16 opacity-0 animate-fade-in">
+        <div className="text-center max-w-2xl mx-auto mb-16 animation-trigger">
           <h2 className="font-heading font-semibold mb-4">Projetos de Sucesso</h2>
           <p className="text-neutral-700">
-            Conheça alguns casos de sucesso do Instituto Perucci Lopes
+            Conheça alguns casos de sucesso do Perucci Lopes
           </p>
         </div>
         
-        <div className="relative max-w-4xl mx-auto opacity-0 animate-scale-in">
+        <div className="relative max-w-4xl mx-auto animation-trigger">
           <div className="overflow-hidden">
             <div 
               className="flex transition-transform duration-500 ease-out"
