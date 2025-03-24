@@ -11,19 +11,19 @@ const Hero = () => {
     >
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
         <div className="max-w-3xl mx-auto">
-          <span className="inline-block py-1 px-3 rounded-full bg-primary-light text-primary-dark text-sm font-medium mb-6 animate-child opacity-0">
+          <span className="inline-block py-1 px-3 rounded-full bg-primary-light text-primary-dark text-sm font-medium mb-6  ">
             Bem-estar Físico e Mental
           </span>
           
-          <h1 className="text-4xl sm:text-5xl md:text-6xl font-heading font-bold mb-6 animate-child opacity-0">
+          <h1 className="text-4xl sm:text-5xl md:text-6xl font-heading font-bold mb-6  ">
             Melhore Seu Bem-Estar Físico e Mental
           </h1>
           
-          <p className="text-lg sm:text-xl text-neutral-700 mb-8 max-w-2xl mx-auto animate-child opacity-0">
+          <p className="text-lg sm:text-xl text-neutral-700 mb-8 max-w-2xl mx-auto  ">
             Tratamentos Eficazes com Técnicas Especializadas para renovar seu corpo e mente.
           </p>
           
-          <div className="animate-child opacity-0">
+          <div className=" ">
             <a href="#contact" className="btn-primary text-base">
               Agende Sua Sessão
             </a>

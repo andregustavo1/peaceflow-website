@@ -62,7 +62,7 @@ const About = () => {
           <div className="relative h-[400px] md:h-[500px] animation-trigger">
             <div className="absolute top-0 right-0 w-full h-full rounded-2xl overflow-hidden">
               <img 
-                src="public/images/image.png" 
+                src="/images/image3.png" 
                 alt="Profissional realizando tratamento" 
                 className="w-full h-full object-cover"
               />
